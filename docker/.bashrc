@@ -37,7 +37,5 @@ alias topic='ros2 topic'
 alias node='ros2 node'
 alias param='ros2 param'
 
-# CD to the workspace
-cd /home/$USER/$ROS2_WS
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash

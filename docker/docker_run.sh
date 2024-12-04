@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-BASH_HISTORY_FILE=${PWD%/*}/.bash_history
+BASH_HISTORY_FILE=${PWD%/*}/docker/.bash_history
 BASH_RC_FILE=${PWD%/*}/docker/.bashrc
 
 CONTAINER_NAME="ros2_container"
@@ -14,17 +14,9 @@ sleep 0.1
 touch $XAUTH
 xauth nlist $DISPLAY | sed -e 's/^..../ffff/' | xauth -f $XAUTH nmerge -
 
-# Create a string with all --device options for each device in /dev/
-device_options=""
-for device in /dev/*; do
-    if [ -e "$device" ]; then
-        device_options+="--device=$device "
-    fi
-done
 
 docker run -it  --rm\
     --name $CONTAINER_NAME-$docker_count \
-    --user $(id -u):$(id -g) \
     --volume="${PWD%/*}:/home/$DOCKER_USER" \
     --volume="$BASH_HISTORY_FILE:/home/$DOCKER_USER/.bash_history" \
     --volume="$BASH_RC_FILE:/home/$DOCKER_USER/.bashrc" \
@@ -34,9 +26,8 @@ docker run -it  --rm\
     --env="DISPLAY" \
     --env="QT_X11_NO_MITSHM=1" \
     --workdir="/home/$DOCKER_USER" \
-    $device_options \
     --net=host \
     --privileged \
-    $CONTAINER_NAME:latest
+    $CONTAINER_NAME
 
 echo "Docker container exited."

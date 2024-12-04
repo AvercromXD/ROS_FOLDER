@@ -6,7 +6,7 @@ ENV TZ=UTC
 
 # Install dependencies and tools
 RUN apt-get update && apt-get install -y \
-    git wget curl python3-pip software-properties-common ros-dev-tools \
+    git wget curl python3-pip software-properties-common ros-dev-tools gpg apt-transport-https\
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python packages
@@ -34,12 +34,23 @@ RUN apt-get update && apt-get install -y \
 #Update
 RUN apt-get update && apt-get upgrade -y
 
+# VSCode install
+RUN echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections
+RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+RUN install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+RUN echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+RUN rm -f packages.microsoft.gpg
+
+RUN apt-get update
+RUN apt-get install vim code curl -y
+RUN git clone --depth 1 https://github.com/junegunn/fzf.git /usr/local/fzf \
+    && /usr/local/fzf/install --all --no-bash --no-zsh --no-fish
+
+ENV PATH="/usr/local/fzf/bin:$PATH"
+
 # Create a non-root user
 RUN useradd -m -s /bin/bash dockerian && \
 echo "dockerian ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/dockerian
-
-ARG HOST_GID
-RUN groupadd -g $HOST_GID hostgroup
 
 # Set up the user's environment
 COPY ./.bashrc /home/dockerian/.bashrc
