@@ -37,6 +37,6 @@ docker run -it  --rm\
     $device_options \
     --net=host \
     --privileged \
-    ros2_vdb_cont
+    avercromxd/ros2_vdb:latest
 
 echo "Docker container exited."

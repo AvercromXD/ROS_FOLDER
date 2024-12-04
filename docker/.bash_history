@@ -18,3 +18,25 @@ ls
 vim .bashrc
 exit
 tmux
+ls
+cd ..
+ls
+rviz2
+cd turtlebot3_ws/
+colcon build --symlink-install
+cd src/
+ls
+cd ..
+colcon build --symlink-install
+ros2
+cd ..
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install 
+source .bashrc 
+cd ..
+cd turtlebot3_ws/
+rosdep update
+rosdep check --from-paths src --ignore-src
+cd src/vdb_mapping
+ls
+exit
