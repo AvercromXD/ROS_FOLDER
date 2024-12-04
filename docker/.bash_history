@@ -90,3 +90,7 @@ vim c_cpp_properties.json
 cd ../..
 colcon build --symlink-install --packages-select vi_to_nav_cpp
 colcon build --symlink-install --packages-select vi_to_nav_cpp
+source turtlebot3_ws/install/setup.bash
+ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.p
+ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.py
+exit
