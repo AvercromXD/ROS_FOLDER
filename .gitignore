@@ -14,6 +14,8 @@
 .vimrc
 .wget-hsts
 .vscode/*
-turtlebot3_ws/*
-!turtlebot3_ws/src
+turtlebot3_ws/build
+turtlebot3_ws/log
+turtlebot3_ws/install
 docker/.bash_history
+.local

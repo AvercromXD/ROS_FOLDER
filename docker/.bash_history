@@ -58,3 +58,35 @@ ls
 cd ..
 exit
 exit
+exit
+cd /opt/ros/humble/include/
+ls
+cd sensor_msgs/
+ls
+cd sensor_msgs/
+ls
+cd ../../std_msgs/
+ls
+cd std_msgs/
+ls
+cd 
+cd -
+cd ..
+cd ..
+cd rclcpp
+ls
+cd rclcpp/
+ls
+code .
+ls -a
+cd ..
+cd ..
+vim .gitignore 
+cd turtlebot3_ws/src/
+mkdir .vscode
+cd .vscode/
+vim c_cpp_properties.json
+vim c_cpp_properties.json
+cd ../..
+colcon build --symlink-install --packages-select vi_to_nav_cpp
+colcon build --symlink-install --packages-select vi_to_nav_cpp
