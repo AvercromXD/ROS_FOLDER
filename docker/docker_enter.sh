@@ -23,6 +23,8 @@ docker run -it  --rm\
     --env="QT_X11_NO_MITSHM=1" \
     --workdir="/home/$DOCKER_USER" \
     --net=host \
+    --ipc=host \
+    --pid=host\
     --privileged \
     avercromxd/ros2_vdb:latest
 

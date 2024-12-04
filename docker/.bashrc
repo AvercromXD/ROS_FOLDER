@@ -22,6 +22,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+export ROS_DOMAIN_ID=37
+
 # Some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'

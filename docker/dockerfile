@@ -42,7 +42,7 @@ RUN echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.micro
 RUN rm -f packages.microsoft.gpg
 
 RUN apt-get update
-RUN apt-get install vim code curl -y
+RUN apt-get install vim code curl tmux -y
 RUN git clone --depth 1 https://github.com/junegunn/fzf.git /usr/local/fzf \
     && /usr/local/fzf/install --all --no-bash --no-zsh --no-fish
 
