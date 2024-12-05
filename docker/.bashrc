@@ -23,6 +23,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 export ROS_DOMAIN_ID=37
+export TURTLEBOT3_MODEL=custom
 
 # Some more ls aliases
 alias ll='ls -alF'
