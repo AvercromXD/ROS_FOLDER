@@ -1,9 +1,9 @@
 [submodule "turtlebot3_ws/src/turtlebot3"]
 	path = turtlebot3_ws/src/turtlebot3
-	url = git@github.com:AvercromXD/turtlebot3.git
+	url = git@ids-git.fzi.de:ys165/turtlebot3.git
 [submodule "turtlebot3_ws/src/vi_to_nav"]
 	path = turtlebot3_ws/src/vi_to_nav
-	url = git@github.com:AvercromXD/vi_to_nav.git
+    url = git@ids-git.fzi.de:ys165/vi_to_nav.git
 [submodule "turtlebot3_ws/src/vdb_mapping"]
 	path = turtlebot3_ws/src/vdb_mapping
 	url = https://github.com/fzi-forschungszentrum-informatik/vdb_mapping
