@@ -416,3 +416,21 @@ sudo apt install -y tmux
 cd .
 cd ..
 tmux
+rviz2
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ls
+source .bashrc
+nvim .bashrc 
+vim .bashrc
+tmux
+vim .bashrc
+source .bashrc
+cd openvdb/build/
+sudo make install
+cd ..
+cd ../turtlebot3_ws/
+ls
+colcon build --symlink-install
+source install/setup.bas
+source install/setup.bash
+tmux

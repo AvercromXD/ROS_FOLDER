@@ -7,6 +7,9 @@ source /opt/ros/humble/setup.bash
 ROS2_WS="turtlebot3_ws"
 USER="dockerian"
 
+# Set the prompt
+PS1='\[\033[01;32m\]\u@docker:\[\033[01;34m\]\w\[\033[00m\]\$ '
+
 if [ -f "/home/$USER/$ROS2_WS/install/setup.bash" ]; then
     source "/home/$USER/$ROS2_WS/install/setup.bash"
 fi
