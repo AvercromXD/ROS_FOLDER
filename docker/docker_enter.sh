@@ -14,8 +14,6 @@ xauth nlist $DISPLAY | sed -e 's/^..../ffff/' | xauth -f $XAUTH nmerge -
 docker run -it  --rm\
     --name $CONTAINER_NAME \
     --volume="${PWD%/*}:/home/$DOCKER_USER" \
-    --volume="$BASH_HISTORY_FILE:/home/$DOCKER_USER/.bash_history" \
-    --volume="$BASH_RC_FILE:/home/$DOCKER_USER/.bashrc" \
     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
     --volume="$XAUTH:$XAUTH" \
     --env="XAUTHORITY=$XAUTH" \

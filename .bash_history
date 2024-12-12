@@ -1,6 +1,3 @@
-exit
-cd ..
-ls -a
 cd turtlebot3_ws/
 ls
 cd src/
@@ -434,3 +431,70 @@ colcon build --symlink-install
 source install/setup.bas
 source install/setup.bash
 tmux
+rviz2
+cd turtlebot3_ws/
+rm -rf build/ log/ install/
+colcon build --symlink-install
+cd ..
+cd openvdb/build/
+sudo make install
+cd ../../turtlebot3_ws/
+colcon build --symlink-install
+rm -rf build/ log/ install/
+colcon build --symlink-install
+ros2 launch vi_to_nav tb3_simulation.launch.py
+rviz2
+rviz2
+cd turtlebot3_ws/
+source install/setup.bash
+ros2 launch vi_to_nav tb3_simulation.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav tb3_simulation.launch.py
+colcon build --symlink-install
+source install/setup.bash
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+colcon build --symlink-install
+source install/setup.bash
+ros2 launch vi_to_nav tb3_simulation.launch.py
+htop
+sudo apt install -y htop
+htop
+ros2 launch vi_to_nav tb3_simulation.launch.py
+cd turtlebot3_ws/
+colcon build --symlink-install
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+htop
+top
+clear
+sudo apt install htop
+htop
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
