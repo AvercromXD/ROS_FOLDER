@@ -1,47 +1,3 @@
-cd turtlebot3_ws/
-ls
-cd src/
-ls
-cd ..
-ls -a
-cd ../docker/
-ls
-vim .bash_history 
-cd ..
-tmux
-vim .bashrc
-cd docker/
-ls
-vim .bashrc
-exit
-tmux
-ls
-cd ..
-ls
-rviz2
-cd turtlebot3_ws/
-colcon build --symlink-install
-cd src/
-ls
-cd ..
-colcon build --symlink-install
-ros2
-cd ..
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install 
-source .bashrc 
-cd ..
-cd turtlebot3_ws/
-rosdep update
-rosdep check --from-paths src --ignore-src
-cd src/vdb_mapping
-ls
-exit
-cd src/
-ls
-cd vdb_mapping
-ls
-cd ../..
 colcon build --symlink-install
 cd ..
 cd docker/
@@ -498,3 +454,47 @@ ros2 launch vi_to_nav tb3_simulation.launch.py
 ros2 launch vi_to_nav tb3_simulation.launch.py
 ros2 launch vi_to_nav tb3_simulation.launch.py
 ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+clear
+ros2 launch vi_to_nav tb3_simulation.launch.py
+rviz2
+rviz2
+rviz2
+ls
+cd turtlebot3_ws/
+ls
+colcon build --symlink-install --clean
+colcon build --helü
+colcon build --help
+rm -rf install/ build/ log/ 
+colcon build --symlink-install
+code .
+source install/setup.bash
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+tmux
