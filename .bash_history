@@ -1,73 +1,3 @@
-colcon build --symlink-install
-cd ..
-cd docker/
-ls
-nvim .bashrc 
-vim .bashrc 
-vim docker_enter.sh 
-exit
-cd turtlebot3_ws/
-ls
-cd ..
-exit
-exit
-exit
-cd /opt/ros/humble/include/
-ls
-cd sensor_msgs/
-ls
-cd sensor_msgs/
-ls
-cd ../../std_msgs/
-ls
-cd std_msgs/
-ls
-cd 
-cd -
-cd ..
-cd ..
-cd rclcpp
-ls
-cd rclcpp/
-ls
-code .
-ls -a
-cd ..
-cd ..
-vim .gitignore 
-cd turtlebot3_ws/src/
-mkdir .vscode
-cd .vscode/
-vim c_cpp_properties.json
-vim c_cpp_properties.json
-cd ../..
-colcon build --symlink-install --packages-select vi_to_nav_cpp
-colcon build --symlink-install --packages-select vi_to_nav_cpp
-source turtlebot3_ws/install/setup.bash
-ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.p
-ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.py
-exit
-export ROS_DOMAIN_ID=37
-ros2 run vi_to_nav_cpp depth_to_pc
-ros2 topic list
-ros2 run vi_to_nav_cpp depth_to_pc
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-source install/setup.bash
-ros2 run vi_to_nav_cpp depth_to_pc
-ros2 topic echo /depth/camera_info
-ros2 topic echo /depth/image_raw
-source install/setup.bash
-ros2 run vi_to_nav_cpp depth_to_pc
-ros2 topic list -t
-ros2 topic echo /camera/image_raw
-ros2 topic echo /camera/image_raw
-printenv | grep ROS
-rviz2
-export ROS_DOMAIN_ID=37
-rviz2
-ros2 topic echo /depth/pointcloud2
 export ROS_DOMAIN_ID=37
 colcon build --symlink-install
 ros2 launch vi_to_nav tb3_simulation.launch.py
@@ -497,4 +427,74 @@ ros2 launch vi_to_nav tb3_simulation.launch.py
 ros2 launch vi_to_nav tb3_simulation.launch.py
 ros2 launch vi_to_nav tb3_simulation.launch.py
 ros2 launch vi_to_nav tb3_simulation.launch.py
+tmux
+rviz2
+ros2 launch vi_to_nav tb3_simulation.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+colcon build --symlink-install
+source install/setup.bash
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+source setup.bash
+source install/setup.bash
+ros2 launch vi_to_nav tb3_simulation.launch.py
+colcon build --symlink-install
+source install/setup.bash
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 topic list
+ros2 topic echo /camera_2/points
+cd src/
+ros2 pkg create -help
+ros2 pkg create --help
+ros2 pkg create --build-type ament_python nbv_calculator
+cd nbv_calculator/
+ls
+cd ..
+rm -rf nbv_calculator/
+ros2 pkg create --build-type ament_cmake nbv_calculator
+cd nbv_calculator/
+lös
+ls
+cd src/
+ls
+cd ../..
+code .
+ls ../install/
+ls ../install/vdb_mapping
+ros2 topic list
+ign topic list
+ign topic -l
+rviz2
+ros2 topic list
+rqt
+rqt
+rviz2
+source install/setup.bash
+rviz2
+rviz2
+rqt
+rviz2
+vim docker/docker_enter.sh 
+cd turtlebot3_ws/
+code .
 tmux
