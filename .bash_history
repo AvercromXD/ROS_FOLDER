@@ -1,123 +1,3 @@
-export ROS_DOMAIN_ID=37
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-export TURTLEBOT3=custom
-ros2 launch vi_to_nav tb3_simulation.launch.py
-export TURTLEBOT3_MODEL=custom
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-source install/setup.bas
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-sudo apt-get update
-sudo apt upgrade
-rm -rf build/ log/ install/
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-source install/setup.zsh
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-cd turtlebot3_ws/src/
-ls -a
-code .
-cd ..
-colcon build --symlink-install --packages-select vi_to_nav_cpp
-ros2 run vi_to_nav_cpp depth_to_pc
-source install/setup.bash
-ros2 run vi_to_nav_cpp depth_to_pc
-tmu
-tmux
-sudo apt install tmux
-tmux
-ros2 run vi_to_nav_cpp depth_to_pc
-source ../turtlebot3_ws/install/setup.bash 
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 topic echo /depth/image_raw/points
-ros2 launch vi_to_nav tb3_simulation.launch.py
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ign topic -l
-ign topic -l
-ros2 topic list
-rqt
-ros2 topic list -t
-ros2 topic echo /depth/image_raw/points
-rviz2
-cd turtlebot3_ws/
-tmux
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-export TURTLEBOT3_MODEL
-ros2 launch vi_to_nav tb3_simulation.launch.py
-export TURTLEBOT3_MODEL=custom
-ros2 launch vi_to_nav tb3_simulation.launch.py
-cd ..
-cd docker/
-vim .bashrc 
-export ROS_DOMAIN_ID=37
-ros2 launch vi_to_nav tb3_simulation.launch.py
-sudo apt install tmux
-tmux 
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 node list
-top
-clear
-ros2 node list
-tmux
-ros2 node list
-cd ..
-ls
-cd turtlebot3_ws/
-ls
-cd src/
-ls
-cd turtlebot3/turtlebot3_gazebo/models/turtlebot3_custom/
-ls
-vim model.sdf 
-cd ~/turtlebot3_ws/src/
-code .
-cd ..
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-tmux
-sudo apt install htop
-exit
-ros2 topic list
-ros2 topic echo /depth/image_raw/points
-cd src/
-code .
-ign topic -l
-ign topic -l
-rviv2
-rviz2
-ign topic -l
-ign topic -l
-ign topic -l
-rviz2
-ros2 topic list
-ros2 topic echo /depth/image_raw/points
-ros2 launch vi_to_nav tb3_simulation.launch.py
-export TURTLEBOT3_MODEL=custom
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
 ros2 launch vi_to_nav tb3_simulation.launch.py
 colcon build --symlink-install
 ros2 launch vi_to_nav tb3_simulation.launch.py
@@ -497,4 +377,124 @@ rviz2
 vim docker/docker_enter.sh 
 cd turtlebot3_ws/
 code .
+tmux
+ros2 node list
+cd 
+ls -a
+cd .gazebo/
+ls
+ls -a
+cd ..
+rviz2
+rviz2
+ros2 run tf2_tools view_frames
+ls
+rm frames_2024-12-13_09.26.32.gv 
+mv frames_2024-12-13_09.26.32.pdf ~
+rviz2
+ros2 topic list
+ros2 topic list -t
+ros2 interface show sensor_msgs/msg/Twist
+ros2 interface show sensor_msgs/msg/Twist.msg
+ros2 interface show geometry_msgs/msg/Twist
+cd ..
+cd --
+cd -
+cd ..
+cd ..
+git clone git@ids-git.fzi.de:ros2/ids-navigation-stack/navpi.git
+ls
+cd ..
+colcon build --symlink-install
+cd ..
+git clone git@ids-git.fzi.de:ros/astar_vdb.git
+cd astar_vdb/
+mkdir build
+cd build/
+cmake ..
+cd 
+cd turtlebot3_ws/src/
+cd ..
+cd src/
+rm -rf navpi/
+cd ..
+colcon build --symlink-install
+rviz2
+rviz2
+rqt
+cd ../../..
+cd ..
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+rm build/ log/ install/
+rm build/ log/ install/ -rf
+colcon build --symlink-install
+source install/setup.bash 
+ros2 launch vi_to_nav scan_world.launch.py
+sudo apt install htop -<
+sudo apt install htop -y
+sudo apt update
+sudo apt install htop
+htop
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch turtlebot3 scan_world.launch.py
+ros2 launch turtlebot3_gazebo scan_world.launch.py
+ros2 launch turtlebot3_gazebo scan_world.launch.py
+clear
+source install/setup.bash 
+ros2 launch turtlebot3_gazebo scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav tb3_simulation.launch.py
+clear
+source install/setup.bash
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+cd turtlebot3_ws/src/
+code .
+cd ../..
+wget https://github.com/uzh-rpg/rpg_ig_active_reconstruction/tree/master/example/flying_gazebo_stereo_cam/model/bunny
+ls
+vim bunny 
+rm bunny 
+git clone --depth=2 https://github.com/uzh-rpg/rpg_ig_active_reconstruction/tree/master/example/flying_gazebo_stereo_cam/model/bunny
+git clone --depth=1 https://github.com/uzh-rpg/rpg_ig_active_reconstruction/tree/master/example/flying_gazebo_stereo_cam/model/bunny.git
+ping github.com
+git clone --depth=1 https://github.com/uzh-rpg/rpg_ig_active_reconstruction/tree/e1aa2cd890e884f26c60dd3300d444c4ee95112b/example/flying_gazebo_stereo_cam/model/bunny
+git clone https://github.com/uzh-rpg/rpg_ig_active_reconstruction.git
+cd rpg_ig_active_reconstruction/
+ls
+cd example/
+ls
+cd flying_gazebo_stereo_cam/
+ls
+cd model/
+ls
+mv -r bunny ~/turtlebot3_ws/src/turtlebot3/turtlebot3_gazebo/models/
+mv bunny ~/turtlebot3_ws/src/turtlebot3/turtlebot3_gazebo/models/
+nvim world.sdf 
+vim world.sdf 
+code world.sdf 
+cd 
+cd turtlebot3_ws/src/turtlebot3/turtlebot3_gazebo/worlds/
+ign gazebo scan_world.world 
+ign gazebo scan_world.world 
+ign gazebo scan_world.world 
+ign gazebo turtlebot3_world.world 
+export GZ_SIM_RESOURCE_PATH=~/turtlebot3_ws/src/turtlebot3/turtlebot3_gazebo/models/
+ign gazebo turtlebot3_world.world 
+ign gazebo scan_world.world 
 tmux
