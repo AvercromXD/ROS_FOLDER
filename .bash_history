@@ -1,103 +1,3 @@
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-cd turtlebot3_ws/
-source install/setup.bash
-sudo apt install tmux
-tmux
-ign topic -l
-code src/
-ros2 topic list
-ros2 topic echo /camera/points
-ros2 topic z /camera/points
-ros2 topic hz /camera/points
-rviz2
-ros2 topic list
-ros2 topic info -v /camera/points
-rviz2
-rviz2
-ros2 topic info -v /camera/points
-ros2 topic echo /camera/points
-ros2 run tf2_tools view_frames
-rviz2
-ros2 launch vi_to_nav tb3_simulation.launch.py
-export TURTLEBOT3_MODEL=custom
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-sudo apt install tmux
-cd turtlebot3_ws/
-source install/setup.bash
-tmux
-rviz2
-ros2 run tf2_tools view_frames
-ros2 topic echo /camera/points
-ros2 topic echo /camera/image
-rqt
-ros2 topic list -t
-ros2 topic list -t | grep pointcloud
-ros2 topic list -t | grep -i pointcloud
-ros2 topic echo /cost_cloud
-ros2 topic echo /global_costmap/voxel_marked_cloud
-ros2 topic echo /loca_costmap/voxel_marked_cloud
-ros2 topic echo /local_costmap/voxel_marked_cloud
-cd turtlebot3_ws/
-source install/setup.bash
-export TURTLEBOT3_MODEL=custom
-ros2 launch vi_to_nav tb3_simulation.launch.py
-export TURTLEBOT3_MODEL=waffle
-ros2 launch vi_to_nav tb3_simulation.launch.py
-sudo apt install -y tmux
-tmux
-ros2 launch vi_to_nav tb3_simulation.launch.py
-export TURTLEBOT3_MODEL=custom
-ros2 launch vi_to_nav tb3_simulation.launch.py
-cd ..
-vim .bashrc
-printenv | grep -i ROS
-rviz2
-cd turtlebot3_ws/src/
-code .
-cd ..
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-sudo apt install tmux -y
-tmux
-colcon build --symlink-install
-source install/setup.zsh
-source install/setup.bash
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-cd src/turtlebot3/turtlebot3_gazebo/worlds/
-ls
-ign gazebo construction_side.world 
-ign gazebo construction_side.world -v
-ros2 topic echo /vdb_mapping/vdb_map_marker
-ros2 topic echo /vdb_mapping/vdb_map_visualization
-ros2 topic echo /vdb_mapping/vdb_map_visualization
-ros2 topic list
-ros2 topic echo /vdb_mapping/vdb_map_pointcloud
-ros2 topic list
-ros2 topic info /camera/points
-ros2 topic info /camera/points
-ros2 topic list
-rviz2
-ros2 topic list
-rviz2
-ros2 run vdb_mapping_ros2 vdb_mapping
-source install/setup.bash
-ros2 run vdb_mapping_ros2 vdb_mapping
-colcon build --symlink-install
-cd src/
-cd ..
-rm -rf build/ install/ log/
 colcon build --symlink-install
 source install/setup.bash
 ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.py
@@ -498,3 +398,103 @@ export GZ_SIM_RESOURCE_PATH=~/turtlebot3_ws/src/turtlebot3/turtlebot3_gazebo/mod
 ign gazebo turtlebot3_world.world 
 ign gazebo scan_world.world 
 tmux
+ros2 topic list
+ros2 topic echo /vdb_mapping/vdb_map_visualization
+rvi2
+rviz2
+rviz2
+rviz2
+rviz2
+rviz2
+rviz2
+cd turtlebot3_ws/
+source install/setup.bash 
+ros2 run nbv_calculator nbv --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
+ros2 run nbv_calculator nbv_node --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
+ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
+ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
+ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
+cd 
+rviz2 marker_config.rviz 
+ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
+ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
+ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
+ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
+cd turtlebot3_ws/src/
+code .
+cd ..
+source install/setup.bash 
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+export TURTLEBOT3_MODEL=waffle
+ros2 launch vi_to_nav scan_world.launch.py
+export TURTLEBOT3_MODEL=custom
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+tmux
+cd turtlebot3_ws/src/
+code .
+ros2 pkg create nbv_interfaces
+cd nbv_
+cd nbv_interfaces/
+ls
+mkdir msg srv action
+ls
+cd action/
+ls
+cd ../..
+colcon build --symlink-install --packages-select nbv_interfaces
+colcon build --symlink-install --packages-select nbv_interfaces
+cd ../build/
+ls
+cd ..
+ls
+cd src/
+ls
+rm -rf build/ install/ log/
+cd ..
+colcon build --symlink-install --packages-select nbv_interfaces
+cd build/nbv_interfaces/
+ls
+cd ../../install/nbv_interfaces/include/
+ls
+cd nbv_interfaces/
+ls
+cd nbv_interfaces/
+ls
+cd action/
+ls
+cd 
+cd -
+cd ..
+cd ..
+cd ..
+ls
+cd ..
+cd ..
+ls
+cd turtlebot3_gazebo/
+ls
+cd include/
+ls
+cd turtlebot3_gazebo/
+ls
+cd ..
+cd ..
+cd..
+cd ..
+ls
+cd vdb_mapping_interfaces/
+ls
+cd include/
+ls
+cd vdb_mapping_interfaces/
+ls
+cd vdb_mapping_interfaces/
+ls
