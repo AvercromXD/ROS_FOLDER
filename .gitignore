@@ -21,4 +21,4 @@ docker/.bash_history
 .local
 .Xauthority
 *topic_tools*
-*pychache*
+*__pycache__*
