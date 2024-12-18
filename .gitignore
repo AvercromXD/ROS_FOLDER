@@ -20,3 +20,5 @@ turtlebot3_ws/install
 docker/.bash_history
 .local
 .Xauthority
+*topic_tools*
+*pychache*
