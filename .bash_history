@@ -1,255 +1,3 @@
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.py
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.py
-ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.py
-colcon build --symlink-install
-ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.py
-source install/setup.bash
-ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.py
-ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.py
-cd turtlebot3_ws/src/
-code .
-cd ..
-colcon build --symlink-install
-source install/setup.bash
-sudo apt install tmux -y
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-tmux
-ros2 launch vi_to_nav tb3_simulation.launch.py
-cd ..
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-cd ../docker/
-nvim docker_enter.sh 
-vim docker_enter.sh 
-rviz2
-cd ..
-colcon build --symlink-install
-ros2 run vdb_mapping_ros2 vdb_mapping
-source install/setup.bash 
-ros2 run vdb_mapping_ros2 vdb_mapping_ros2.py
-ros2 launch vdb_mapping_ros2 vdb_mapping_ros2.py
-ros2 topic list
-rviz2
-sudo apt install -y tmux
-cd turtlebot3_ws/
-ls
-source install/setup.bash
-cd src/
-code .
-tmux
-rviz2
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-git status
-cd src/vdb_mapping
-cd ../vdb_mapping_ros2/
-ls
-cd vdb_mapping_ros2/
-ls
-cd config/
-ls
-rm vdb_params.yaml 
-mv vdb_params_template.yaml vdb_params.yaml
-git status
-cd ..
-c d..
-cd ..
-c d..
-cd ..
-cd ..
-git status
-cd ..
-cd turtlebot3_ws/
-rm -rf build/ log/ install/
-colcon build --symlink-install
-cd build/
-ls
-cd vi_to_nav/config/
-ls
-cd ..
-cd ..
-sudo apt install -y tmux
-cd .
-cd ..
-tmux
-rviz2
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ls
-source .bashrc
-nvim .bashrc 
-vim .bashrc
-tmux
-vim .bashrc
-source .bashrc
-cd openvdb/build/
-sudo make install
-cd ..
-cd ../turtlebot3_ws/
-ls
-colcon build --symlink-install
-source install/setup.bas
-source install/setup.bash
-tmux
-rviz2
-cd turtlebot3_ws/
-rm -rf build/ log/ install/
-colcon build --symlink-install
-cd ..
-cd openvdb/build/
-sudo make install
-cd ../../turtlebot3_ws/
-colcon build --symlink-install
-rm -rf build/ log/ install/
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-rviz2
-rviz2
-cd turtlebot3_ws/
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-htop
-sudo apt install -y htop
-htop
-ros2 launch vi_to_nav tb3_simulation.launch.py
-cd turtlebot3_ws/
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-htop
-top
-clear
-sudo apt install htop
-htop
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-clear
-ros2 launch vi_to_nav tb3_simulation.launch.py
-rviz2
-rviz2
-rviz2
-ls
-cd turtlebot3_ws/
-ls
-colcon build --symlink-install --clean
-colcon build --helü
-colcon build --help
-rm -rf install/ build/ log/ 
-colcon build --symlink-install
-code .
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-tmux
-rviz2
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-source setup.bash
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vi_to_nav tb3_simulation.launch.py
-ros2 topic list
-ros2 topic echo /camera_2/points
-cd src/
-ros2 pkg create -help
-ros2 pkg create --help
-ros2 pkg create --build-type ament_python nbv_calculator
-cd nbv_calculator/
-ls
-cd ..
 rm -rf nbv_calculator/
 ros2 pkg create --build-type ament_cmake nbv_calculator
 cd nbv_calculator/
@@ -498,3 +246,255 @@ cd vdb_mapping_interfaces/
 ls
 cd vdb_mapping_interfaces/
 ls
+ros2 run pc_scan pc_scanner
+ros2 run pc_scan pc_scanner
+ros2 run pc_scan pc_scanner
+ros2 run pc_scan pc_scanner
+ros2 run pc_scan pc_scanner
+rviz2
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+htop
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+htop
+htop
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 interface show sensor_msgs/msg/CameraInfo
+sudo apt install libopencv-dev -y
+cd ..
+wget -O opencv.zip https://github.com/opencv/opencv/archive/4.x.zip
+unzip opencv.zip
+sudo apt install unzip -<
+sudo apt install unzip -y
+unzip opencv.zip
+ls
+mv opencv-4.x/ opencv
+rm -rf opencv.zip 
+cd opencv/
+ls
+mkdir build && cd build
+cmake ..
+make -j4
+sudo make install
+cd ..
+cd ..
+rm -rf opencv/
+wget -O opencv.zip https://github.com/opencv/opencv/archive/2.x.zip
+cd turtlebot3_ws/src/
+code .
+cd /usr/local/include/opencv4/
+ls
+cd opencv2/
+ls
+cd ..
+cd ..
+ls
+cd openvdb/
+ls
+cd ..
+cd opencv4/
+ls
+ros2 run nbv_calculator nbv_action_server
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+source install/setup.bash
+ros2 run nbv_calculator nbv_action_server
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action
+source install/setup.bash
+ros2 run nbv_calculator nbv_action
+source install/setup.bash
+ros2 run nbv_calculator nbv_action
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action
+source install/setup.bash
+ros2 run nbv_calculator nbv_action
+colcon build --symlink-install
+source setup.bash
+source install/setup.bash
+ros2 run nbv_calculator nbv_action
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action_server
+ros2 run nbv_calculator nbv_action_server
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action_server
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action_server
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action_server
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action_server
+ros2 run nbv_calculator nbv_action_server
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action_server
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action_server
+clear
+ros2 run nbv_calculator nbv_action_server
+ros2 run nbv_calculator nbv_action_server
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action_server
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action_server
+ros2 run nbv_calculator nbv_action_server
+kill
+ros2 run nbv_calculator nbv_action_server
+kill
+colcon build --symlink-install
+ros2 run nbv_calculator nbv_action_server
+ros2 action list -t
+ros2 interface show nbv_interfaces/action/Nbv
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 topic list
+ros2 node list
+ros2 topic echo /vdb_mapping/vdb_mapping_updates
+ros2 topic echo /vdb_mapping/vdb_mapping_updates
+ros2 topic echo /vdb_mapping/vdb_map_updates
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+rviz2
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 topic info /vdb_mapping/vdb_map_updates
+ros2 topic info /vdb_mapping/vdb_map_updates -
+ros2 topic info -h
+ros2 topic info /vdb_mapping/vdb_map_updates -v
+htop
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
+rviz2
+source install/setup.bash
+ros2 run ros
+ros2 run topic_tools relay /camera_2/points /virtual_cam/points
+ros2 action send_goal /nbv /nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_id: 0, camera_name: 0}"
+ros2 interface show /nbv_interfaces/action/Nbv
+ros2 interface show nbv_interfaces/action/Nbv
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: 0, camera_name: 0}"
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 topic echo /virtual_cam/points
+ros2 run topic_tools relay
+cd src/
+git clone -b humble https://github.com/ros-tooling/topic_tools/
+cd ..
+colcon build --symlink-install --packages-select topic_tools
+colcon build --symlink-install --packages-select topic_tools_interfaces topic_tools
+cd build/
+ls
+nvim compile_commands.json 
+vim compile_commands.json 
+colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+ls
+rm -rf install/ log/ build/
+cd ..
+colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+cd build/
+ls
+cd topic_tools
+ls
+cd ..
+cd ..
+ros2 launch vi_to_nav scan_world.launch.py
+htop
+sudo apt install -y htop
+htop
+ros2 launch vi_to_nav scan_world.launch.py
+rviz2
+ros2 topic echo /vdb_mapping/vdb_map_updates
+rviz2
+ros2 topic list
+rviz2
+rvi2
+rviz2
+rviz2
+ros2 topic echo /vdb_mapping/vdb_map_updates
+ros2 topic echo /vdb_mapping/vdb_map_updates
+ls
+cd turtlebot3_ws/src/
+code .
+code .
+cd nbv_calculator/
+code .
+cd ..
+code .
+sudo apt update
+apt list --upgradable
+sudo apt install g++
+sudo apt-get install gcc-multilib g++-multilib
+cd .vscode/
+ls
+cp c_cpp_properties.json ~
+cd ..
+rm -rf .vscode/
+code .
+cd 
+ls -a
+rm -rf .vscode/
+cd turtlebot3_ws/src/
+mkdir .vscode
+mv ~/c_cpp_properties.json .vscode/
+mv .vscode/c_cpp_properties.json ~
+code .
+vim ~/c_cpp_properties.json 
+zed
+cd nbv_calculator/
+code .
+code .
+curl -f https://zed.dev/install.sh | sh
+ls
+cd ..
+cd vi_to_nav/
+cd ..
+cd nbv_calculator/
+ls -a
+cd ..
+cd ..
+cd ..
+zed
+~/.local/bin/zed 
+vim
+cd turtlebot3_ws/src/
+ls
+vim .
+ls -a ~
+ls /opt/ros
+vim ~/.vimrc
+vim
+code .
+cd ..
+colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+ls
+cd build/
+ls
+cd ../src/.vscode/
+vim c_cpp_properties.json
+cd /opt/ros/humble/
+ls
+cd -
+cd ..
+cd ..
+colcon build --symlink-install
+clear
+tmux
