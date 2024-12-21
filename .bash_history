@@ -1,106 +1,3 @@
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-cd turtlebot3_ws/src/
-code .
-cd ../..
-wget https://github.com/uzh-rpg/rpg_ig_active_reconstruction/tree/master/example/flying_gazebo_stereo_cam/model/bunny
-ls
-vim bunny 
-rm bunny 
-git clone --depth=2 https://github.com/uzh-rpg/rpg_ig_active_reconstruction/tree/master/example/flying_gazebo_stereo_cam/model/bunny
-git clone --depth=1 https://github.com/uzh-rpg/rpg_ig_active_reconstruction/tree/master/example/flying_gazebo_stereo_cam/model/bunny.git
-ping github.com
-git clone --depth=1 https://github.com/uzh-rpg/rpg_ig_active_reconstruction/tree/e1aa2cd890e884f26c60dd3300d444c4ee95112b/example/flying_gazebo_stereo_cam/model/bunny
-git clone https://github.com/uzh-rpg/rpg_ig_active_reconstruction.git
-cd rpg_ig_active_reconstruction/
-ls
-cd example/
-ls
-cd flying_gazebo_stereo_cam/
-ls
-cd model/
-ls
-mv -r bunny ~/turtlebot3_ws/src/turtlebot3/turtlebot3_gazebo/models/
-mv bunny ~/turtlebot3_ws/src/turtlebot3/turtlebot3_gazebo/models/
-nvim world.sdf 
-vim world.sdf 
-code world.sdf 
-cd 
-cd turtlebot3_ws/src/turtlebot3/turtlebot3_gazebo/worlds/
-ign gazebo scan_world.world 
-ign gazebo scan_world.world 
-ign gazebo scan_world.world 
-ign gazebo turtlebot3_world.world 
-export GZ_SIM_RESOURCE_PATH=~/turtlebot3_ws/src/turtlebot3/turtlebot3_gazebo/models/
-ign gazebo turtlebot3_world.world 
-ign gazebo scan_world.world 
-tmux
-ros2 topic list
-ros2 topic echo /vdb_mapping/vdb_map_visualization
-rvi2
-rviz2
-rviz2
-rviz2
-rviz2
-rviz2
-rviz2
-cd turtlebot3_ws/
-source install/setup.bash 
-ros2 run nbv_calculator nbv --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
-ros2 run nbv_calculator nbv_node --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
-ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
-ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
-ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
-cd 
-rviz2 marker_config.rviz 
-ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
-ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
-ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
-ros2 run nbv_calculator nbv_node --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params.yaml 
-cd turtlebot3_ws/src/
-code .
-cd ..
-source install/setup.bash 
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-export TURTLEBOT3_MODEL=waffle
-ros2 launch vi_to_nav scan_world.launch.py
-export TURTLEBOT3_MODEL=custom
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-tmux
-cd turtlebot3_ws/src/
-code .
-ros2 pkg create nbv_interfaces
-cd nbv_
-cd nbv_interfaces/
-ls
-mkdir msg srv action
-ls
-cd action/
-ls
-cd ../..
-colcon build --symlink-install --packages-select nbv_interfaces
-colcon build --symlink-install --packages-select nbv_interfaces
-cd ../build/
-ls
-cd ..
-ls
-cd src/
-ls
-rm -rf build/ install/ log/
-cd ..
-colcon build --symlink-install --packages-select nbv_interfaces
 cd build/nbv_interfaces/
 ls
 cd ../../install/nbv_interfaces/include/
@@ -497,4 +394,107 @@ cd /usr/local/include/opencv4/opencv2/
 ls
 cd turtlebot3_ws/src/
 code .
+tmux
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+cd build/
+ls
+cd nbv_
+cd nbv_calculator/
+ls
+cd ../../install/nbv_calculator/
+ls
+cd lib/
+ls
+cd nbv_calculator/
+ls
+cd ..
+cd ..
+cd share/
+ls
+c d..
+cd ..
+ls
+cd ..
+ls
+cd vdb_mapping
+ls
+cd include/
+ls
+cd ..
+cd ..
+cd vdb_mapping_ros2/
+ls
+cd include/
+ls
+cd vdb_mapping_ros2/
+ls
+ls
+cd 
+cd turtlebot3_ws/
+colcon build --symlink-insta
+rm -rf build/ log/ install/
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ls
+cd install/
+ls
+cd ..
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 topic list
+ros2 topic echo /camera/image_mouse_left
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
+rqt
+ros2 run nbv_calculator nbv_action_server --ros-args --params-file turtlebot3_ws/src/vi_to_nav/config/vdb_params_virtual.yaml 
+ros2 run nbv_calculator nbv_action_server --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params_virtual.yaml 
+ros2 run nbv_calculator nbv_action_server --ros-args --params-file ~/turtlebot3_ws/src/vi_to_nav/config/vdb_params_virtual.yaml 
+ros2 run nbv_calculator nbv_action_server
+ros2 run nbv_calculator nbv_action_server
+ros2 run nbv_calculator nbv_action_server
+ros2 run nbv_calculator nbv_action_server
+ros2 action lst
+ros2 action list
+rviz2
+ls
+cd turtlebot3_ws/
+cd src/
+code .
+cd ..
+colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+cd ..
+rm -rf opencv/
+cd turtlebot3_ws/
+colcon build --symlink-install
+colcon build --symlink-install
 tmux
