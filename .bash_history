@@ -1,43 +1,3 @@
-cd build/nbv_interfaces/
-ls
-cd ../../install/nbv_interfaces/include/
-ls
-cd nbv_interfaces/
-ls
-cd nbv_interfaces/
-ls
-cd action/
-ls
-cd 
-cd -
-cd ..
-cd ..
-cd ..
-ls
-cd ..
-cd ..
-ls
-cd turtlebot3_gazebo/
-ls
-cd include/
-ls
-cd turtlebot3_gazebo/
-ls
-cd ..
-cd ..
-cd..
-cd ..
-ls
-cd vdb_mapping_interfaces/
-ls
-cd include/
-ls
-cd vdb_mapping_interfaces/
-ls
-cd vdb_mapping_interfaces/
-ls
-ros2 run pc_scan pc_scanner
-ros2 run pc_scan pc_scanner
 ros2 run pc_scan pc_scanner
 ros2 run pc_scan pc_scanner
 ros2 run pc_scan pc_scanner
@@ -498,3 +458,43 @@ cd turtlebot3_ws/
 colcon build --symlink-install
 colcon build --symlink-install
 tmux
+ros2 launch vi_to_nav scan_world.launch.py
+cd turtlebot3_ws/
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 run tf2_tools view_frames
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 181.0, origin_y: 229.0, frame_name: camera_2_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 181.0, origin_y: 229.0, frame_name: camera_2_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 181.0, origin_y: 229.0, frame_name: camera_2_frame, camera_name: camera_2}"
+htop
+sudo apt install -y htop
+htop
+htop
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 181.0, origin_y: 229.0, frame_name: camera_2_frame, camera_name: camera_2}"
+rqt
+ros2 topic echo /camera/image_mouse_left
+ros2 topic echo /camera_2/image_mouse_left
+ls
+cd turtlebot3_ws/src/
+code .
+cd ..
+cd ..
+ls
+tmux
+sudo apt install htop -y
+sudo apt update
+apt list --upgradable
+sudo apt upgrade
+cd turtlebot3_ws/
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
