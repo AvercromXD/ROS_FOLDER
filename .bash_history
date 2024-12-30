@@ -1,26 +1,3 @@
-ros2 action list -t
-ros2 interface show nbv_interfaces/action/Nbv
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 topic list
-ros2 node list
-ros2 topic echo /vdb_mapping/vdb_mapping_updates
-ros2 topic echo /vdb_mapping/vdb_mapping_updates
-ros2 topic echo /vdb_mapping/vdb_map_updates
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
 ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
 rviz2
 ros2 launch vi_to_nav scan_world.launch.py
@@ -497,4 +474,27 @@ ls
 code .
 cd ..
 colcon build --symlink-install
+tmux
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_frame, camera_name: camera}"
+rviz2
+ros2 topic list
+ros2 topic echo /camera/depth_image
+ros2 interface show /sensor_msgs/msg/image
+ros2 interface show sensor_msgs/msg/image
+ros2 interface show sensor_msgs/msg/Image
+ros2 interface show sensor_msgs/msg/CameraInfo
+ros2 topic echo /camera/camera_info
+ros2 interface show sensor_msgs/msg/CameraInfo
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_rgb_optical_frame, camera_name: camera}"
+ros2 topic list
+ros2 topic echo /camera/camera_info
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_frame, camera_name: camera}"
+ls
+cd turtlebot3_ws/src/
+code .
+code .
+cd ..
+ros2 launch vi_to_nav scan_world.launch.py
+export TURTLEBOT3_MODEL=crepe
 tmux
