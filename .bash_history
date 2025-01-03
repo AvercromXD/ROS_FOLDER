@@ -1,48 +1,3 @@
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-rviz2
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 topic info /vdb_mapping/vdb_map_updates
-ros2 topic info /vdb_mapping/vdb_map_updates -
-ros2 topic info -h
-ros2 topic info /vdb_mapping/vdb_map_updates -v
-htop
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: A, camera_name: A}"
-rviz2
-source install/setup.bash
-ros2 run ros
-ros2 run topic_tools relay /camera_2/points /virtual_cam/points
-ros2 action send_goal /nbv /nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_id: 0, camera_name: 0}"
-ros2 interface show /nbv_interfaces/action/Nbv
-ros2 interface show nbv_interfaces/action/Nbv
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: 0, camera_name: 0}"
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 topic echo /virtual_cam/points
-ros2 run topic_tools relay
-cd src/
-git clone -b humble https://github.com/ros-tooling/topic_tools/
-cd ..
-colcon build --symlink-install --packages-select topic_tools
-colcon build --symlink-install --packages-select topic_tools_interfaces topic_tools
-cd build/
-ls
-nvim compile_commands.json 
-vim compile_commands.json 
-colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
-ls
-rm -rf install/ log/ build/
-cd ..
-colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
-cd build/
-ls
-cd topic_tools
-ls
-cd ..
-cd ..
 ros2 launch vi_to_nav scan_world.launch.py
 htop
 sudo apt install -y htop
@@ -497,4 +452,49 @@ code .
 cd ..
 ros2 launch vi_to_nav scan_world.launch.py
 export TURTLEBOT3_MODEL=crepe
+tmux
+tmux
+tmux
+ros2 interface show nbv_interfaces/srv/ViewPointSampling
+ros2 service 
+ros2 service list
+ros2 service /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call
+ros2 service call -h
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+python3
+clear
+python3
+cd ..
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+python3
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run tf2_tools view_frames
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+cd turtlebot3_ws/src/
+code .
+tmux
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+cd turtlebot3_ws/src/
+code .
+cd ..
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
 tmux
