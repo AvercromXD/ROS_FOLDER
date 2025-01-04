@@ -1,135 +1,3 @@
-ros2 launch vi_to_nav scan_world.launch.py
-htop
-sudo apt install -y htop
-htop
-ros2 launch vi_to_nav scan_world.launch.py
-rviz2
-ros2 topic echo /vdb_mapping/vdb_map_updates
-rviz2
-ros2 topic list
-rviz2
-rvi2
-rviz2
-rviz2
-ros2 topic echo /vdb_mapping/vdb_map_updates
-ros2 topic echo /vdb_mapping/vdb_map_updates
-ls
-cd turtlebot3_ws/src/
-code .
-code .
-cd nbv_calculator/
-code .
-cd ..
-code .
-sudo apt update
-apt list --upgradable
-sudo apt install g++
-sudo apt-get install gcc-multilib g++-multilib
-cd .vscode/
-ls
-cp c_cpp_properties.json ~
-cd ..
-rm -rf .vscode/
-code .
-cd 
-ls -a
-rm -rf .vscode/
-cd turtlebot3_ws/src/
-mkdir .vscode
-mv ~/c_cpp_properties.json .vscode/
-mv .vscode/c_cpp_properties.json ~
-code .
-vim ~/c_cpp_properties.json 
-zed
-cd nbv_calculator/
-code .
-code .
-curl -f https://zed.dev/install.sh | sh
-ls
-cd ..
-cd vi_to_nav/
-cd ..
-cd nbv_calculator/
-ls -a
-cd ..
-cd ..
-cd ..
-zed
-~/.local/bin/zed 
-vim
-cd turtlebot3_ws/src/
-ls
-vim .
-ls -a ~
-ls /opt/ros
-vim ~/.vimrc
-vim
-code .
-cd ..
-colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
-colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
-ls
-cd build/
-ls
-cd ../src/.vscode/
-vim c_cpp_properties.json
-cd /opt/ros/humble/
-ls
-cd -
-cd ..
-cd ..
-colcon build --symlink-install
-clear
-tmux
-printenv | grep ROS
-export ROS_LOCALHOST_ONLY=1
-cd ..
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-export ROS_LOCALHOST_ONLY=0
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 interface show sensor_msgs/msg/CameraInfo
-cd /usr/local/
-ls
-cd lib/
-ls
-cd ..
-cd include/
-ls
-cd opencv4/
-ls
-cd opencv2/
-ls
-vim opencv.hpp 
-vim core.hpp 
-vim opencv.hpp 
-vim core.hpp 
-cd ~/turtlebot3_ws/
-colcon build --symlink-install
-colcon build --symlink-install
-echo $CMAKE_PREFIX_PATH
-echo $CMAKE_MODULE_PATH
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-export ROS_LOCALHOST_ONLY=1
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: 0, camera_name: 0}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: camera_2_frame, camera_name: camera_2}"
-export ROS_LOCALHOST_ONLY=0
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: camera_2_frame, camera_name: camera_2}"
-cd /usr/include/
-ls
-cd opencv4/
-cd ..
-ls | grep open
-cd opencv4/
-ls
-cd opencv2/
 ls
 rviz2
 ros2 topic list
@@ -497,4 +365,136 @@ cd ..
 colcon build --symlink-install
 ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
+tmux
+cd ..
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+export TURTLEBOT3_MODEL=crepe
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 interface show nav2_msgs/action/ComputePathToGoal
+ros2 interface show nav2_msgs/action/ComputePathToPose
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_optical_rgb_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_rgb_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_rgb_optical_frame, camera_name: camera}"
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 action list
+ros2 action list -t
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+cd turtlebot3_ws/src/
+code .
+tmux
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+export TURTLEBOT3_MODEL=crepe
+ros2 launch vi_to_nav scan_world.launch.py
+export TURTLEBOT3_MODEL=custom
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_2_optical_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_2_optical_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_2_optical_frame, camera_name: camera_2}"
+htop
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_2_optical_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_2_optical_frame, camera_name: camera_2}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_2_optical_frame, camera_name: camera_2}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 action send_goal /compute_path_pose nav2_msgs/action/ComputePathToPose "{goal: {pose: {position: {x: 0.0, y: 0.5, z: 1.0}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}}, use_start: False, planner_id: "GridBased"}" 
+ros2 action send_goal /compute_path_pose nav2_msgs/action/ComputePathToPose "{goal: {pose: {position: {x: 0.0, y: 0.5, z: 1.0}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}}, use_start: False, planner_id: 'GridBased'}" 
+ros2 action send_goal /compute_path_pose nav2_msgs/action/ComputePathToPose "{goal: {pose: {position: {x: 0.0, y: 0.5, z: 1.0}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}}, use_start: False, planner_id: 'GridBased'}" 
+ros2 action send_goal /compute_path_pose nav2_msgs/action/ComputePathToPose "{goal: {pose: {position: {x: 0.0, y: 0.5, z: 1.0}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}}, use_start: False, planner_id: GridBased}" 
+ros2 action send_goal /compute_path_pose nav2_msgs/action/ComputePathToPose "{goal: {pose: {position: {x: 0.0, y: 0.5, z: 1.0}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}}, use_start: False, planner_id: GridBased }" 
+ros2 action send_goal /compute_path_pose nav2_msgs/action/ComputePathToPose "{goal: {pose: {position: {x: 0.0, y: 0.5, z: 1.0}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}}}, use_start: false, planner_id: GridBased}" 
+ros2 action send_goal /compute_path_p_to_pose nav2_msgs/action/ComputePathToPose "{goal: {pose: {position: {x: 0.0, y: 0.5, z: 1.0}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}}}, use_start: false, planner_id: GridBased}" 
+ros2 action send_goal /compute_path_po_pose nav2_msgs/action/ComputePathToPose "{goal: {pose: {position: {x: 0.0, y: 0.5, z: 1.0}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}}}, use_start: false, planner_id: GridBased}" 
+ros2 action send_goal /compute_path_potpose nav2_msgs/action/ComputePathToPose "{goal: {pose: {position: {x: 0.0, y: 0.5, z: 1.0}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}}}, use_start: false, planner_id: GridBased}" 
+ros2 action send_goal /compute_path_to_pose nav2_msgs/action/ComputePathToPose "{goal: {pose: {position: {x: 0.0, y: 0.5, z: 1.0}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}}}, use_start: false, planner_id: GridBased}" 
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 action send_goal /compute_path_to_pose nav2_msgs/action/ComputePathToPose "{goal: {pose: {position: {x: 0.0, y: 0.5, z: 0.0}, orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}}}, use_start: false, planner_id: GridBased}" 
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 0.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 action list -t
+ros2 interface show nav2_msgs/action/NavigateToPose
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {pose: {position: {x: 0.94, y: -1.27, z: 0.0}, orientation: {x: 0.38, y: 0.0, z: 0.0, w: 0.92}}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.94, y: -1.27, z: 0.0}, orientation: {x: 0.38, y: 0.0, z: 0.0, w: 0.92}}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.94, y: -1.27, z: 0.0}, orientation: {x: -0.38, y: 0.0, z: 0.0, w: 0.92}}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.94, y: -1.27, z: 0.0}, orientation: {x: 0.38, y: 0.0, z: -0.38, w: 0.92}}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.0, y: 0.0, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.94, y: -1.27, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: -0.38, w: 0.92}}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.0, y: 0.0, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.94, y: -1.27, z: 0.0}, orientation: {x: -0.38, y: 0.0, z: 0.0, w: 0.92}}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.94, y: -1.27, z: 0.0}, orientation: {x: -0.76, y: 0.0, z: 0.0, w: 0.92}}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.94, y: -1.27, z: 0.0}, orientation: {x: -1.2, y: 0.0, z: 0.0, w: 0.92}}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.94, y: -1.27, z: 0.0}, orientation: {x: -1.2, y: 0.0, z: -0.38, w: 0.92}}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.94, y: -1.27, z: 0.0}, orientation: {x: -1.2, y: 0.0, z: 0.38, w: 0.92}}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 action send_goal navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 1.26, y: -0.74, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.38, w: 0.92}}}}"
+ros2 topic list
+ros2 topic echo /camera_2/points
+cd turtlebot3_ws/src/
+code .
+cd ..
 tmux
