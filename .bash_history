@@ -1,91 +1,4 @@
 ls
-rviz2
-ros2 topic list
-export ROS_LOCALHOST_ONLY
-export ROS_LOCALHOST_ONLY=1
-ros2 topic list
-printenv | grep -i ROS
-rviz2
-export ROS_LOCALHOST_ONLY=0
-rviz2
-cd 
-ls
-wget -O opencv.zip https://github.com/opencv/opencv/archive/4.x.zip
-sudo apt install unzip -y
-man unzip
-unzip -h
-unzip opencv.zip -d opencv
-cd opencv/
-ls
-mv opencv-4.x/ ..
-cd ..
-rm opencv -r
-mv opencv-4.x/ opencv
-cd opencv/
-ls
-mkdir build
-cd build/
-cmake ..
-make -j4
-sudo make install
-cd
-cd turtlebot3_ws/
-colcon build --symlink-install
-sudo apt install libopencv-dev
-colcon build --symlink-install
-cd /usr/local/include/
-ls
-cd 
-cd /usr/include/
-ls
-cd 
-clear
-export ROS_LOCALHOST_ONLY=1
-ros2 run nbv_calculator nbv_action_server
-ros2 run nbv_calculator nbv_action_server --ros-args --params-file turtlebot3_ws/src/vi_to_nav/config/vdb_params_virtual.yaml 
-ros2 run nbv_calculator nbv_action_server --ros-args --params-file turtlebot3_ws/src/vi_to_nav/config/vdb_params_virtual.yaml 
-ros2 topic list
-export ROS_LOCALHOST_ONLY=0
-ros2 topic list
-ros2 run nbv_calculator nbv_action_server --ros-args --params-file turtlebot3_ws/src/vi_to_nav/config/vdb_params_virtual.yaml 
-cd turtlebot3_ws/
-colcon build --symlink-install
-colcon build --symlink-install
-cd /usr/local/include/opencv4/opencv2/
-ls
-cd turtlebot3_ws/src/
-code .
-tmux
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-cd build/
-ls
-cd nbv_
-cd nbv_calculator/
-ls
-cd ../../install/nbv_calculator/
-ls
-cd lib/
-ls
-cd nbv_calculator/
-ls
-cd ..
-cd ..
-cd share/
-ls
 c d..
 cd ..
 ls
@@ -497,4 +410,91 @@ ros2 topic echo /camera_2/points
 cd turtlebot3_ws/src/
 code .
 cd ..
+tmux
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+sudo apt install htop
+sudo apt update
+sudo apt install htop
+htop
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 interface show sensor_msgs/msg/CameraInfo
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 interface show sensor_msgs/msg/CameraInfo
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 action list
+ros2 action list
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 run vi_to_nav vi_to_tb
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+ros2 interface show geometry_msgs/msg/Vector3
+ros2 interface show geometry_msgs/msg/Vector3Stamped
+ros2 service call /vi_to_nav/view_point_sampling nbv_interfaces/srv/ViewPointSampling "{centroids: [{x: 2.0, y: 0.5, z: 0.05}], cam_info: {header: {frame_id: "camera_frame"}}}"
+cd src/vi_to_nav/vi_to_nav/
+python3 service_client_test.py 
+source ../../../install/setup.bash 
+python3 service_client_test.py 
+python3 service_client_test.py 
+python3 service_client_test.py 
+ros2 topic list
+ros2 topic list
+python3 service_client_test.py 
+ros2 run 
+ros2 run service_client_test.py 
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+cd turtlebot3_ws/src/
+code .
+cd ..
+colcon build --symlink-install
+colcon build --symlink-install
 tmux
