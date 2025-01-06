@@ -1,44 +1,3 @@
-ls
-c d..
-cd ..
-ls
-cd ..
-ls
-cd vdb_mapping
-ls
-cd include/
-ls
-cd ..
-cd ..
-cd vdb_mapping_ros2/
-ls
-cd include/
-ls
-cd vdb_mapping_ros2/
-ls
-ls
-cd 
-cd turtlebot3_ws/
-colcon build --symlink-insta
-rm -rf build/ log/ install/
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ls
-cd install/
-ls
-cd ..
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 topic list
 ros2 topic echo /camera/image_mouse_left
 ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
 ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 173.0, origin_y: 213.0, frame_name: camera_2_frame, camera_name: camera_2}"
@@ -494,6 +453,47 @@ ros2 run vi_to_nav test
 ros2 run vi_to_nav test
 cd turtlebot3_ws/src/
 code .
+cd ..
+colcon build --symlink-install
+colcon build --symlink-install
+tmux
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_optical_frame, camera_name: camera}"
+ros2 topic echo /camera/image_mouse_left
+ros2 topic echo /camera/image_mouse_left
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 14292, origin_y: 22506, frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 292, origin_y: 206, frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 292, origin_y: 206, frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 292, origin_y: 206, frame_name: camera_optical_frame, camera_name: camera}"
+rqt
+cd turtlebot3_ws/src/
+code .
+curl -f https://zed.dev/install.sh | sh
+ls -a
+cd ../..
+ls -a
+cd .local/
+ls
+cd .
+cd ..
+zed
+export PATH=$PATH:~/.local/bin
+zed
+cd .local/
+ls
+cd zed.app/
+ls
+cd ..
+cd bin/
+ls
+vim zed 
+./zed
+cd 
+ls
+cd turtlebot3_ws/src/
+ls
 cd ..
 colcon build --symlink-install
 colcon build --symlink-install
