@@ -1,24 +1,6 @@
-[submodule "turtlebot3_ws/src/turtlebot3"]
-	path = turtlebot3_ws/src/turtlebot3
-	url = git@ids-git.fzi.de:ys165/turtlebot3.git
-[submodule "turtlebot3_ws/src/vi_to_nav"]
-	path = turtlebot3_ws/src/vi_to_nav
-    url = git@ids-git.fzi.de:ys165/vi_to_nav.git
-[submodule "turtlebot3_ws/src/vdb_mapping"]
-	path = turtlebot3_ws/src/vdb_mapping
-	url = https://github.com/fzi-forschungszentrum-informatik/vdb_mapping
-[submodule "turtlebot3_ws/src/vdb_mapping_ros2"]
-	path = turtlebot3_ws/src/vdb_mapping_ros2
-	url = https://github.com/fzi-forschungszentrum-informatik/vdb_mapping_ros2
 [submodule "openvdb"]
 	path = openvdb
 	url = https://github.com/AcademySoftwareFoundation/openvdb
-[submodule "turtlebot3_ws/src/nbv_calculator"]
-	path = turtlebot3_ws/src/nbv_calculator
-	url = git@ids-git.fzi.de:ys165/nbv_calculator.git
-[submodule "turtlebot3_ws/src/nbv_interfaces"]
-	path = turtlebot3_ws/src/nbv_interfaces
-	url = git@ids-git.fzi.de:ys165/nbv_interfaces.git
 [submodule "vdb_ws/src/vdb_mapping_ros2"]
 	path = vdb_ws/src/vdb_mapping_ros2
 	url = https://github.com/fzi-forschungszentrum-informatik/vdb_mapping_ros2.git
