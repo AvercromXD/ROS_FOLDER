@@ -15,7 +15,7 @@
 	url = https://github.com/AcademySoftwareFoundation/openvdb
 [submodule "turtlebot3_ws/src/nbv_calculator"]
 	path = turtlebot3_ws/src/nbv_calculator
-	url = git@github.com:AvercromXD/nbv_interfaces.git
+	url = git@github.com:AvercromXD/nbv_calculator.git
 [submodule "turtlebot3_ws/src/nbv_interfaces"]
 	path = turtlebot3_ws/src/nbv_interfaces
-	url = git@github.com:AvercromXD/nbv_calculator.git
+	url = git@github.com:AvercromXD/nbv_interfaces.git
