@@ -14,6 +14,7 @@
 .vimrc
 .wget-hsts
 .vscode/*
+vdb_ws/src/.vscode
 */build
 */log
 */install

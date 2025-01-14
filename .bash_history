@@ -1,44 +1,3 @@
-python3 service_client_test.py 
-source ../../../install/setup.bash 
-python3 service_client_test.py 
-python3 service_client_test.py 
-python3 service_client_test.py 
-ros2 topic list
-ros2 topic list
-python3 service_client_test.py 
-ros2 run 
-ros2 run service_client_test.py 
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-cd turtlebot3_ws/src/
-code .
-cd ..
-colcon build --symlink-install
-colcon build --symlink-install
-tmux
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 147, origin_y: 225.0, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 topic echo /camera/image_mouse_left
-ros2 topic echo /camera/image_mouse_left
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 14292, origin_y: 22506, frame_name: camera_optical_frame, camera_name: camera}"
 ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 292, origin_y: 206, frame_name: camera_optical_frame, camera_name: camera}"
 ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 292, origin_y: 206, frame_name: camera_optical_frame, camera_name: camera}"
 ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 292, origin_y: 206, frame_name: camera_optical_frame, camera_name: camera}"
@@ -497,4 +456,45 @@ colcon build --symlink-install
 colcon build --symlink-install
 colcon build --symlink-install
 colcon build --symlink-install
+tmux
+ros2 launch vi_to_nav scan_world.launch.py
+cd src/
+ls
+git clone git@ids-git.fzi.de:ys165/nbv.git
+cd ..
+colcon build --symlink-install
+rm -rf install/ log/ build/
+colcon build --symlink-install
+source install/setup.zsh
+source install/setup.bash
+ros2 launch vi_to_nav scan_world.launch.py
+cd src/nbv/
+cd ..
+cd ..
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+cd src/nbv/
+cd ..
+code .
+cd ../../vdb_ws/src/
+code .
+cd ..
+cd ..
+ls
+cd nbv_ws/
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+cd vdb_ws/
+colcon build --symlink-install
+source install/setup.bash
+cd ..
+cd nbv_ws/
+rm -rf install/ log/ build/
+colcon build --symlink-install
+source install/setup.bash
 tmux
