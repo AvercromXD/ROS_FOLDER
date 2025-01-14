@@ -1,5 +1,0 @@
-Centroid[] centroids # in map frame
-sensor_msgs/CameraInfo cam_info
-string optical_frame # if in Gazebo simulation
----
-CandidateView[] view_points

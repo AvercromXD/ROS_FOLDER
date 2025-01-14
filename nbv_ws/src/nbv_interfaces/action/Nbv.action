@@ -1,9 +1,0 @@
-int32 origin_x
-int32 origin_y
-string optical_frame_name
-string camera_name
----
-string result_msg
-bool success
----
-string status
