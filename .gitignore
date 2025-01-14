@@ -14,9 +14,9 @@
 .vimrc
 .wget-hsts
 .vscode/*
-turtlebot3_ws/build
-turtlebot3_ws/log
-turtlebot3_ws/install
+*/build
+*/log
+*/install
 docker/.bash_history
 .local
 .Xauthority

@@ -1,0 +1,24 @@
+{
+    "cmake.ignoreCMakeListsMissing": true,
+    "python.autoComplete.extraPaths": [
+        "/home/dockerian/turtlebot3_ws/build/vi_to_nav",
+        "/home/dockerian/turtlebot3_ws/install/vi_to_nav/lib/python3.10/site-packages",
+        "/home/dockerian/turtlebot3_ws/install/vdb_mapping_interfaces/local/lib/python3.10/dist-packages",
+        "/home/dockerian/turtlebot3_ws/build/pc_scan",
+        "/home/dockerian/turtlebot3_ws/install/pc_scan/lib/python3.10/site-packages",
+        "/home/dockerian/turtlebot3_ws/install/nbv_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dockerian/turtlebot3_ws/build/vi_to_nav",
+        "/home/dockerian/turtlebot3_ws/install/vi_to_nav/lib/python3.10/site-packages",
+        "/home/dockerian/turtlebot3_ws/install/vdb_mapping_interfaces/local/lib/python3.10/dist-packages",
+        "/home/dockerian/turtlebot3_ws/build/pc_scan",
+        "/home/dockerian/turtlebot3_ws/install/pc_scan/lib/python3.10/site-packages",
+        "/home/dockerian/turtlebot3_ws/install/nbv_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
+}
