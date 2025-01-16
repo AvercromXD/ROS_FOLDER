@@ -1,48 +1,3 @@
-ros2 topic echo
-ros2 topic list
-rviz2
-rviz2
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 topic list
-ros2 topic echo
-ros2 topic list
-ros2 topic echo
-ros2 topic list
-cd turtlebot3_ws/
-cd src/
-code .
-code .
-cd ..
-colcon build --symlink-install
-tmux
-/bin/python3
-colcon build --symlink-install
-ls
-rm -rf build/ log/ install/
-cd ..
-colcon build --symlink-install
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 interface show nav2_msgs/action/NavigateToPose
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
 colcon build --symlink-install
 colcon build --symlink-install
 colcon build --symlink-install
@@ -497,4 +452,49 @@ rviz2
 rqt
 cd nbv_ws/src/
 code .
+tmux
+cd nbv_ws/
+source install/setup.bash
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+cd nbv_ws/
+ls
+colcon build --symlink-install
+cd ..
+cd vdb_ws/
+ls
+colcon build --symlink-install
+cd ..
+cd nbv_ws/
+colcon build --symlink-install
+source ../vdb_ws/install/setup.bash
+colcon build --symlink-install
+cd src/
+code .
+ros2 interface show geometry_msgs/msg/Point
+cd ..
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+source install/setup.bash
+ros2 launch vi_to_nav scan_world.launch.py
+rqt
+ros2 action list -t
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+clear
 tmux
