@@ -1,203 +1,3 @@
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 292, origin_y: 206, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 292, origin_y: 206, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 292, origin_y: 206, frame_name: camera_optical_frame, camera_name: camera}"
-rqt
-cd turtlebot3_ws/src/
-code .
-curl -f https://zed.dev/install.sh | sh
-ls -a
-cd ../..
-ls -a
-cd .local/
-ls
-cd .
-cd ..
-zed
-export PATH=$PATH:~/.local/bin
-zed
-cd .local/
-ls
-cd zed.app/
-ls
-cd ..
-cd bin/
-ls
-vim zed 
-./zed
-cd 
-ls
-cd turtlebot3_ws/src/
-ls
-cd ..
-colcon build --symlink-install
-colcon build --symlink-install
-tmux
-ros2 interface show sensor_msgs/msg/CameraInfo
-cd ..
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-pip install tf2_transformations
-pip install tf_transformations
-python3 
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 interface show sensor_msgs/msg/CameraInfo
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-cd ..
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 run vi_to_nav vi_to_tb
-ros2 service list
-ros2 topic echo /camera/image_mouse_left
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 313, origin_y: 211, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 292, origin_y: 206, frame_name: camera_optical_frame, camera_name: camera}"
-rqt
-rqt
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 292, origin_y: 206, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 639, origin_y: 479, frame_name: camera_optical_frame, camera_name: camera}"
-rqt
-ros2 topic echo /camera/camera_info
-ros2 topic echo /camera/image_mouse_left
-ros2 topic echo /camera/image_mouse_left
-ros2 topic list
-ros2 topic echo /camera/camera_info
-ros2 topic echo /camera/image_mouse_left
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 topic echo /camera/camera_info
-rqt
-rviz2
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 0, origin_y: 0, frame_name: camera_optical_frame, camera_name: camera}"
-cd turtlebot3_ws/src/
-code .
-tmux
-ros2 launch vi_to_nav scan_world.launch.py
-cd ..
-vim spot_hand_mapping.cpp 
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ls
-rm -rf install/ log/ build/
-cd turtlebot3_ws/
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, frame_name: camera_optical_frame, camera_name: camera}"
-ros2 topic list
-ign gz topic list
-ign gazebo topic -l
-ign gazebo topic
-ign gazebo topic -h
-ign gazebo topic --list
-ign topic -l
-ign topic -l -z
-ign topic -l -t
-ros2 topic list
-ros2 topic echo /scan/points
-rviz2
-ign topic -l
-rviz2
-ros2 topic list
-ros2 topic list
-ros2 topic list
 ros2 topic echo
 ros2 topic list
 rviz2
@@ -497,4 +297,204 @@ cd nbv_ws/
 rm -rf install/ log/ build/
 colcon build --symlink-install
 source install/setup.bash
+tmux
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+cd ../vdb_ws/src/
+code .
+cd ../../nbv_ws/
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+cd src/
+code .
+cd ..
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+cd src/nbv/
+ros2 pkg create --build-type ament_python nbv_controller
+cd ../..
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 lifecycle set /vdb_mapping_lifecycle activate
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 lifecycle set /vdb_mapping_lifecycle activate
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/Nbv "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+rviz2
+rviz2
+cd nbv_ws/src/nbv/
+cd ..
+code .
+cd ..
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+tmux
+ros2 interface show std_srvs/srv/Trigger
+cd ..
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 interface show std_srvs/srv/Trigger
+ros2 service list
+ros2 service info nbv/setup_nbv
+ros2 service type /nbv/setup_nbv
+ros2 interface show nbv_interfaces/srv/SetupNBV
+ros2 service call /nbv/setup_nbv nbv_interfaces/srv/SetupNBV "{pixel_x:= 307, pixel_y:= 288}"
+ros2 service call /nbv/setup_nbv nbv_interfaces/srv/SetupNBV "{pixel_x: 307, pixel_y: 288}"
+ros2 service call /nbv/setup_nbv nbv_interfaces/srv/SetupNBV "{pixel_x: 307, pixel_y: 217}"
+ros2 service call /nbv/setup_nbv nbv_interfaces/srv/SetupNBV "{pixel_x: 307, pixel_y: 217}"
+ls
+ros2 service call /nbv/setup_nbv nbv_interfaces/srv/SetupNBV "{pixel_x: 307, pixel_y: 217}"
+ros2 service call /nbv/setup_nbv nbv_interfaces/srv/SetupNBV "{pixel_x: 307, pixel_y: 217}"
+ros2 action send_goal /nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217, optical_frame_name: camera_optical_frame, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217, camera_name: camera}"
+ros2 action send_goal /nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217}"
+ros2 action send_goal /nbv n/find_nbv bv_interfaces/action/NBV "{origin_x: 307, origin_y: 217}"
+ros2 action send_goal /nbv/find_nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217}"
+ros2 action list
+ros2 action list
+ros2 service list
+ros2 action list
+ros2 run vi_to_nav vi_to_nav_tb
+ros2 action list
+ros2 service call /nbv/setup_nbv nbv_interfaces/srv/SetupNBV "{pixel_x: 307, pixel_y: 217}"
+ros2 action send_goal /nbv/find_nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217}"
+ros2 service call /nbv/setup_nbv nbv_interfaces/srv/SetupNBV "{pixel_x: 307, pixel_y: 217}"
+ros2 action send_goal /nbv/find_nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217}"
+ros2 service call /nbv/setup_nbv nbv_interfaces/srv/SetupNBV "{pixel_x: 307, pixel_y: 217}"
+ros2 action send_goal /nbv/find_nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217}"
+ros2 action list
+ros2 action list -t
+ros2 interface show nbv_interfaces/action/NBV
+ros2 interface show nbv_interfaces/action/MoveToPose
+ros2 action send_goal vi_to_nav/move_to_pose nbv_interfaces/action/MoveToPose "{camera_pose: {position: {x: 1.14, y: 1.0, z: 0.1}, orientation: {z: -0.41, w: 0.912}}, camera_frame: camera_frame}"
+ros2 action send_goal /nbv/find_nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217}"
+ros2 action send_goal vi_to_nav/move_to_pose nbv_interfaces/action/MoveToPose "{camera_pose: {position: {x: 0.91, y: -0.22, z: 0.1}, orientation: {z: 0.195, w: 0.981}}, camera_frame: camera_frame}"
+ros2 action send_goal /nbv/find_nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217}"
+ros2 action send_goal vi_to_nav/move_to_pose nbv_interfaces/action/MoveToPose "{camera_pose: {position: {x: 1.513, y: -0.399, z: 0.1}, orientation: {z: 0.450, w: 0.893}}, camera_frame: camera_frame}"
+ros2 action send_goal /nbv/find_nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217}"
+ros2 action send_goal vi_to_nav/move_to_pose nbv_interfaces/action/MoveToPose "{camera_pose: {position: {x: 1.323, y: -0.328, z: 0.1}, orientation: {z: -0.230, w: 0.973}}, camera_frame: camera_frame}"
+ros2 action send_goal /nbv/find_nbv nbv_interfaces/action/NBV "{origin_x: 307, origin_y: 217}"
+rviz2
+ros2 topic echo /vdb_mapping_lifecycle/vdb_map_updates
+ros2 action list
+ros2 action list
+ros2 service list
+ros2 service type vi_to_nav/view_point_sampling
+ros2 service info vi_to_nav/view_point_sampling
+ros2 service find vi_to_nav/view_point_sampling
+ros2 service list
+rviz2
+rqt
+cd nbv_ws/src/
+code .
 tmux
