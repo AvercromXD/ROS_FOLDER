@@ -1,56 +1,3 @@
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ls
-rm -rf build/ log install/
-colcon build --symlink-install
-cd src/
-ros2 pkg
-ros2 pkg create -h
-ros2 pkg create --build-type cmake mapping
-rm -rf mapping/
-ros2 pkg create --build-type ament_cmake mapping
-cd ..
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-rm -rf build/ log/ install/
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-rm -rf build/ log/ install/
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-rm -rf build/ log/ install/
-colcon build --symlink-install
-cd install/
-ls
-cd nbv_mapping/
-ls
-cd share/
-ls
-cd nbv_mapping/
-ls
-cd ../../lib/
-ls
-cd nv
-cd nbv_mapping/
 ls
 cd 
 cd turtlebot3_ws/
@@ -497,4 +444,57 @@ ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 clear
+tmux
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+rqt
+rqt
+rqt
+rqt
+cd nbv_ws/src/
+code .
+ls
+cd ..
 tmux
