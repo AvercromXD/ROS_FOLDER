@@ -1,44 +1,3 @@
-ls
-cd 
-cd turtlebot3_ws/
-colcon build --symlink-install
-colcon build --symlink-install
-cd install/nbv_mapping/
-ls
-cd bin/
-ls
-cd ..
-cd lib/
-ls
-cd nbv_mapping/
-ls
-cd ..
-cd ..
-cd ..
-cd ..
-cd build/
-ls
-cd nbv_mapping/
-ls
-cd ..
-ls
-cd nbv_calculator/
-ls
-cd ..
-cd ../install/
-ls
-cd nbv_calculator/
-ls
-cd share/
-ls
-cd nbv_calculator/
-ls
-cd ..
-cd ..
-cd ..
-cd vdb_mapping_ros2/
-ls
-cd ..
 cd ..
 colcon build --symlink-install
 cd install/nbv_
@@ -498,3 +457,44 @@ code .
 ls
 cd ..
 tmux
+cd ..
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 run nbv_controller controller
+ros2 interface show sensor_msgs/msg/CameraInfo
+ros2 run nbv_controller controller
+rqt
+rqt
+rqt
+rqt
+rqt
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+rviz2
+cd nbv_ws/src/
+code .
+tmux
+cd vdb_ws/src/
+code .
