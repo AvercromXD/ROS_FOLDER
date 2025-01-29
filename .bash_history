@@ -1,16 +1,4 @@
 colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
 ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
@@ -497,4 +485,16 @@ ros2 launch vi_to_nav nbv.launch.py
 ros2 interface show std_msgs/msg/ColorRGBA
 colcon build --symlink-install
 ros2 launch vi_to_nav nbv.launch.py
+tmux
+cd ..
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+cd ..
+ls
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+cd ..
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+cd nbv_ws/src/
+code .
 tmux
