@@ -1,37 +1,3 @@
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 run nbv_controller controller
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-rqt
-rqt
-rqt
-rqt
-cd nbv_ws/src/
-code .
-ls
 cd ..
 tmux
 cd ..
@@ -498,3 +464,37 @@ ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
+cd nbv_ws/
+colcon build --symlink-install
+tmux
+git status
+cd src/nbv/
+ls
+git status
+cd turtlebot3/
+git status
+git add .
+git commit -m "Reverting depth to pc"
+git status
+cd ..
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 launch vi_to_nav scan_world.launch.py
+cd ..
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+cd nbv_ws/src/
+code .
+tmux
