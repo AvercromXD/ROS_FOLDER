@@ -1,28 +1,3 @@
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-clear
-tmux
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 run nbv_controller controller
 ros2 run nbv_controller controller
 ros2 run nbv_controller controller
 ros2 run nbv_controller controller
@@ -498,3 +473,28 @@ ros2 topic list
 ros2 topic echo /camera_2/camera_info
 ros2 topic echo /camera_2/points
 tmux
+cd src/
+code .
+cd ..
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
