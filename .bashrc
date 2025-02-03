@@ -28,6 +28,7 @@ fi
 
 export ROS_DOMAIN_ID=37
 export TURTLEBOT3_MODEL=custom
+export ROS_LOCALHOST_ONLY=1
 
 
 
