@@ -1,101 +1,3 @@
-mkdir images
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-cd nbv_ws/
-cd ../vdb_ws/
-ls
-cd ../nbv_ws/
-colcon build --symlink-install
-colcon build --symlink-install
-source install/setup.bash
-ros2 launch vi_to_nav nbv.launch.py
-cd src/nbv/nbv_calculator/
-ls
-cd include/nbv_calculator/
-ls
-vim nbv_utils.hpp 
-cd 
-cd nbv_ws/
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-ros2 interface show std_msgs/msg/ColorRGBA
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-tmux
-cd ..
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-cd ..
-ls
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-cd ..
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-cd nbv_ws/src/
-code .
-tmux
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 interface show sensor_msgs/msg/CameraInfo
-ros2 interface show sensor_msgs/msg/Image
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ls
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-colcon build --symlink-install
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-cd nbv_ws/src/
-code .
-cd ..
-colcon build --symlink-install
-tmux
-cd nbv_ws/src/
-code .
-cd ..
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 interface show sensor_msgs/msg/PointCloud2
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-sudo apt install ros-humble-depth-image-proc
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 pkg depth_image_proc
-ros2 pkg depth_image_proc -
-ros2 pkg depth_image_proc -h
 ros2 pkg info depth_image_proc
 ros2 pkg -h info depth_image_proc
 ros2 pkg -h
@@ -497,4 +399,102 @@ htop
 sudo apt update && sudo apt upgrade
 cd nbv_ws/
 colcon build --symlink-install
+tmux
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+htop
+htop
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+cd nbv_ws/src/
+code .
+cd ..
+tmux
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 interface show geometry_msgs/msg/Pose
+ros2 interface show geometry_msgs/msg/PointCloud2
+ros2 interface show sensor_msgs/msg/PointCloud2
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+cd ..
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+cd nbv_ws/src/
+code .
 tmux
