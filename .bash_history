@@ -1,10 +1,3 @@
-ros2 pkg info depth_image_proc
-ros2 pkg -h info depth_image_proc
-ros2 pkg -h
-ros2 pkg executables depth_image_proc
-ros2 launch vi_to_nav scan_world.launch.py
-htop
-ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
@@ -497,4 +490,11 @@ ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 cd nbv_ws/src/
 code .
+tmux
+cd nbv_ws/src/
+code .
+cd ..
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
 tmux
