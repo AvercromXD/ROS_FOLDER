@@ -1,9 +1,3 @@
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
 ros2 launch vi_to_nav nbv.launch.py
 colcon build --symlink-install
 colcon build --symlink-install
@@ -498,3 +492,9 @@ ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
 cd nbv_ws/
 tmux
+cd nbv_ws/
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
