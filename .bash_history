@@ -1,15 +1,3 @@
-top
-clear
-htop
-sudo apt install htop
-sudo apt update
-sudo apt install htop
-htop
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
 colcon build --symlink-install
 ros2 launch vi_to_nav nbv.launch.py
 colcon build --symlink-install
@@ -498,3 +486,15 @@ ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 tmux
+ros2 launch vi_to_nav nbv.launch.py
+python3 
+pip install opencv2
+pip install cv2
+pip install cv
+pip install opencv
+pip install opencv-python
+ros2 launch vi_to_nav nbv.launch.py
+pip install cv_bridge
+pip show cv_bridge numpy
+pip show ortools
+ros2 launch vi_to_nav nbv.launch.py
