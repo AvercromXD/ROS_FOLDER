@@ -1,95 +1,3 @@
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-htop
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-htop
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-htp
-htop
-htop
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-cd nbv_ws/src/
-code .
-cd .
-cd ..
-tmux
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-cd src/
-code .
-cd ..
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-htop
-htop
-sudo apt update && sudo apt upgrade
-cd nbv_ws/
-colcon build --symlink-install
-tmux
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-colcon build --symlink-install
-colcon build --symlink-install
-colcon build --symlink-install
 ros2 launch vi_to_nav nbv.launch.py
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 htop
@@ -498,3 +406,95 @@ pip install cv_bridge
 pip show cv_bridge numpy
 pip show ortools
 ros2 launch vi_to_nav nbv.launch.py
+ros2 topic list -t
+ros2 run vi_to_nav test
+ros2 interface show geometry_msgs/msg/Point
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 run vi_to_nav test
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 pkg info depth_image_proc
+ros2 pkg list depth_image_proc
+ros2 pkg list
+ros2 
+ros2 pkg
+ros2 pkg executables depth_image_proc
+ros2 topic list
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+cd nbv_ws/
+colcon build --symlink-install
+ros2 topic list
+ros2 interface show sensor_msgs/msg/Image
+rqt
+ros2 interface show sensor_msgs/msg/PointCloud2
+rviz2
+ros2 launch vi_to_nav nbv.launch.py
+pip install ortools
+ros2 launch vi_to_nav nbv.launch.py
+pip install "numpy<2"
+ros2 launch vi_to_nav nbv.launch.py
+rviz2
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+rviz2
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav empty_world.launch.py
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+ls
+rm -rf build/ log/ install/
+cd nbv_ws/
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+tmux
