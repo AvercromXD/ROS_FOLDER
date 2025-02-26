@@ -1,71 +1,3 @@
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-cd nbv_ws/
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-cd ..
-ls -a
-cd .ignition/
-ls
-cd fuel/
-ls
-cd fuel.gazebosim.org/
-ls
-cd openrobotics/
-ls
-cd models/
-ls
-cd small\ blue\ box/
-ls
-cd 5
-ls
-cd meshes/
-ls
-python3
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ls
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ros2 launch vi_to_nav nbv.launch.py
-ls
-cd ..
-ls
-vim model.sdf 
-ls
-nvim model.config 
-vim model.config 
 cd meshes/
 ls
 vim blueboxsmall.dae 
@@ -494,6 +426,74 @@ ros2 launch vi_to_nav nbv.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+tmux
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+colcon build --symlink-install
+colcon build --symlink-install
+colcon build --symlink-install
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+cd nbv_ws/
+colcon build --symlink-install
+tmux
+cd nbv_ws/
+colcon build --symlink-install
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
