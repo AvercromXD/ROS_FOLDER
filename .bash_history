@@ -2,50 +2,6 @@ ros2 run vi_to_nav test
 ros2 run vi_to_nav test
 ros2 run vi_to_nav test
 ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 lifecycle set vdb_mapping_lifecycle activate
-ros2 lifecycle set vdb_mapping_lifecycle activate
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 lifecycle set vdb_mapping_lifecycle activate
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 lifecycle set vdb_mapping_lifecycle activate
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
@@ -483,6 +439,50 @@ ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+tmux
+cd nbv_ws/
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
