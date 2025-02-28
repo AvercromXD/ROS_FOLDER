@@ -1,51 +1,3 @@
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 run vi_to_nav test
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
-tmux
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
-ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
 ros2 launch vi_to_nav scan_world.launch.py
@@ -483,6 +435,54 @@ ros2 launch vi_to_nav nbv.launch.py
 ros2 launch vi_to_nav nbv.launch.py
 ros2 launch vi_to_nav nbv.launch.py
 ros2 launch vi_to_nav nbv.launch.py
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
+tmux
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav scan_world.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 launch vi_to_nav nbv.launch.py
+ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
 ros2 action send_goal /nbv/start_procedure nbv_interfaces/action/ScanObject "{}"
