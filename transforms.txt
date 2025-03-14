@@ -1,5 +1,4 @@
-Small Blue Box: x - 1.03, y + 0.05, z - 0.106 (86.01%), origin as: 0.92, -0.03, 0.11 -> scale 0.01
-Bunny: x - 1.55, y, z (57.58%), spawn at x: -1.5 -> scale 1
-Drill: x - 0.95, y, z - 0.015, origin as: 1.04, 0.02, 0.17 (91.11%) -> scale 0.01
-Large Crate: x - 2.0, y, z, origin as: 1.35, -0.04, 0.35 (51.7%) -> scale 0.02
-
+Small Blue Box: origin x: 1.0, y: 0.0, z: 0.1 transform x - 1.01, z-0.1 scale: 0.01, coverage: 42.92%
+Bunny: origin x: 1.38, y: 0.006, z: 0.12, transform x - 1.5, z + 0.035, coverage: 13.1%
+Drill: origin x: 1.02, y: 0.0, z: 0.03, transform: x - 1.0, coverage: 17.325, scale: 0.01, note: not really aligned
+Large Crate: origin x: 2.34, y: 0.0, z: 0.36, transform: x - 3.0, coverage: 29%, scale : 0.02
