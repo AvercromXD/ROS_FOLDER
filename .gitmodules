@@ -9,4 +9,4 @@
 	url = https://github.com/fzi-forschungszentrum-informatik/vdb_mapping.git
 [submodule "nbv_ws/src/nbv"]
 	path = nbv_ws/src/nbv
-	url = git@ids-git.fzi.de:ys165/nbv.git
+	url = git@github.com:AvercromXD/nbv.git
